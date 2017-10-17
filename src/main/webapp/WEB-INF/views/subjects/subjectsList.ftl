@@ -20,11 +20,11 @@
     <#list subjects as subject>
         <tr>
             <td><a href="/subjects/${subject.id}">${subject.id}</a></td>
-            <td>${subject.status}</td>
+            <td>${subject.status?c}</td>
             <td>${subject.time}</td>
-            <td>${subject.student_id}</td>
-            <td>${subject.user_id}</td>
-            <td><a href="delete/${subjects.id}">Delete</a>
+            <td>${subject.student.id}</td>
+            <td>${subject.user.id}</td>
+            <td><a href="delete/${subject.id}">Delete</a>
                 <a href="${subject.id}?edit=true">Edit</a>
             </td>
         </tr>

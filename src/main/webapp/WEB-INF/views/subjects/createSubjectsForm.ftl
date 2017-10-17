@@ -9,13 +9,13 @@
 
 <form action="create" method="post" name="subjects" class="form-group">
     Status
-    <input title="status" type="text" name="status" "/>
+    <input title="status" type="boolean" name="status" "/>
     Time
     <input title="time" type="Time" name="time" "/>
     Teachers
-    <input title="students_id" type="number" name="students_id"/>
+    <input title="student" type="number" name="student"/>
     Students
-    <input title="user_id" type="number" name="user_id"/>
+    <input title="user" type="number" name="user"/>
     <input type="submit" value="Create"/>
 </form>
 <a type="button" href="/subjects/all" class="button">Back</a>

@@ -22,11 +22,11 @@
     </tr>
     <tr>
         <td>Teachers</td>
-        <td>${subject.students_id}</td>
+        <td>${subject.student.id}</td>
     </tr>
     <tr>
         <td>Students</td>
-        <td>${subject.user_id}</td>
+        <td>${subject.user.id}</td>
     </tr>
 </table>
 </div>

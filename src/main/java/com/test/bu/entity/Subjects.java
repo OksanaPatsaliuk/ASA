@@ -12,9 +12,9 @@ public class Subjects {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @OneToOne(fetch = FetchType.EAGER, targetEntity = Students.class)
-    private int student;
+    private Students student;
     @ManyToOne(fetch = FetchType.EAGER, targetEntity = User.class)
-    private int user;
+    private User user;
     private int time;
     private boolean status;
 
@@ -27,19 +27,19 @@ public class Subjects {
         this.id = id;
     }
 
-    public void setStudents(int student) {
+    public void setStudent(Students student) {
         this.student = student;
     }
 
-    public void setUser(int user) {
+    public void setUser(User user) {
         this.user = user;
     }
 
-    public int getStudent() {
+    public Students getStudent() {
         return student;
     }
 
-    public int getUser() {
+    public User getUser() {
         return user;
     }
 
