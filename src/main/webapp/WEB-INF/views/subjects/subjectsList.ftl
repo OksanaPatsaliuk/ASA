@@ -22,9 +22,9 @@
             <td><a href="/subjects/${subject.id}">${subject.id}</a></td>
             <td>${subject.status}</td>
             <td>${subject.time}</td>
-            <td>${subject.studentsId_id}</td>
-            <td>${subject.userId_id}</td>
-            <td><a href="delete/${subject.id}">Delete</a>
+            <td>${subject.student_id}</td>
+            <td>${subject.user_id}</td>
+            <td><a href="delete/${subjects.id}">Delete</a>
                 <a href="${subject.id}?edit=true">Edit</a>
             </td>
         </tr>

@@ -14,7 +14,7 @@ public class Subjects {
     @OneToOne(fetch = FetchType.EAGER, targetEntity = Students.class)
     private int student;
     @ManyToOne(fetch = FetchType.EAGER, targetEntity = User.class)
-    private int userId;
+    private int user;
     private int time;
     private boolean status;
 
@@ -27,26 +27,24 @@ public class Subjects {
         this.id = id;
     }
 
+    public void setStudents(int student) {
+        this.student = student;
+    }
 
-    public int getStudentsId() {
+    public void setUser(int user) {
+        this.user = user;
+    }
+
+    public int getStudent() {
         return student;
+    }
+
+    public int getUser() {
+        return user;
     }
 
     public boolean isStatus() {
         return status;
-    }
-
-    public void setStudentsId(int studentsId) {
-        this.student= studentsId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId= userId;
-    }
-
-    public int getUserId() {
-
-        return userId;
     }
 
     public int getTime() {

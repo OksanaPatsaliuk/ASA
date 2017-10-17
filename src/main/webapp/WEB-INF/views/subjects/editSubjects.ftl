@@ -15,9 +15,9 @@
     Time
     <input title="time" type="number" name="time" value="${subject.time}"/>
     Teachers
-    <input title="studentsId_id" type="number" name="studentsId" value="${subject.studentsId_id}"/>
+    <input title="students_id" type="number" name="students" value="${subject.students_id}"/>
     Students
-    <input title="userId_id" type="number" name="userId" value="${subject.userId_id}"/>
+    <input title="user_id" type="number" name="user" value="${subject.user_id}"/>
     <input type="submit" value="Update"/>
 </form>
 <a type="button" href="/subjects/all" class="button">Back</a>

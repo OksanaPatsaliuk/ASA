@@ -13,9 +13,9 @@
     Time
     <input title="time" type="Time" name="time" "/>
     Teachers
-    <input title="studentsId_id" type="number" name="studentsId_id"/>
+    <input title="students_id" type="number" name="students_id"/>
     Students
-    <input title="userId_id" type="number" name="userId_id"/>
+    <input title="user_id" type="number" name="user_id"/>
     <input type="submit" value="Create"/>
 </form>
 <a type="button" href="/subjects/all" class="button">Back</a>
