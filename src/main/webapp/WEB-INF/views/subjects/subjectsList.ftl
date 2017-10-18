@@ -15,6 +15,7 @@
             <th>Time</th>
             <th>Teachers</th>
             <th>Students</th>
+            <th>Buttons</th>
             
         </tr>
     <#list subjects as subject>
